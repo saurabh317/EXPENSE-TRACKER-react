@@ -44,6 +44,7 @@ const ExpenseForm = (props) => {
       date:new Date(enteredDate)
     };
     props.onSaveEnteredData(expensedata);
+    //for clearing values 
     setEnteredTitle('');
     setEnteredAmount('');
     setEnteredDate('');
